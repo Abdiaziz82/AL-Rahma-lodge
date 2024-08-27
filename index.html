@@ -12,6 +12,7 @@
     <title>Website Header</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://kit.fontawesome.com/9e0d4e9289.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.tailgrids.com/tailgrids-fallback.css" />
 
     <script type="module">
         import KeenSlider from 'https://cdn.jsdelivr.net/npm/keen-slider@6.8.6/+esm'
@@ -80,10 +81,6 @@ body {
 
 
 
-
-
-
-
 .navbar {
 
     padding: 10px 260px;
@@ -92,6 +89,7 @@ body {
     align-items: center;
     padding-top: 3em;
 flex-wrap: wrap;
+position: relative;
 }
 .navbar img {
     height: 60px;
@@ -137,12 +135,17 @@ flex-wrap: wrap;
 font-weight: 800;
 font-style: normal;
 }
+
+
+
+
+
  
     </style>
 </head>
 <body>
 
-    <div class="top-header look">
+    <div class="top-header look ">
         <div class="contact-info">
             <span><i class="fa-solid fa-envelope"></i> reservations@AlRahmalodges.com</span>
             <span><i class="fa-solid fa-phone"></i> +254 712 15 93 02</span>
@@ -155,16 +158,19 @@ font-style: normal;
         </div>
     </div>
 <div class="cont">
-    <nav class=" explore navbar">
+    <nav class=" explore navbar   ">
         <img src="https://sawelalodges.com/images/logo.png" alt="Sawela Lodge Logo">
-        <ul>
+
+ 
+        
+        <ul >
             <li><a href="#">HOME</a></li>
             <li><a href="#">ABOUT US</a></li>
             <li><a href="#">SPECIAL EVENTS</a></li>
             <li><a href="#">ACCOMMODATIONS</a></li>
             <li><a href="#">OTHER SERVICES</a></li>
             <li><a href="#">DINING</a></li>
-            <li><a href="#">OUR GALLERY</a></li>
+            <li><a href="gallery.html">OUR GALLERY</a></li>
         </ul>
         <a href="#" class="contact-button">CONTACT US</a>
         
@@ -189,7 +195,7 @@ font-style: normal;
 </div>
 <section class="bg-[#0c2747] text-[#fdb913] h-[70vh]"  >
 
-    <div class="flex justify-center items-center h-full ">
+    <div class=" flex justify-center items-center h-full ">
         <div class="w-4/5 max-w-screen-lg bg-[#0c2747] p-8">
             <h2 class="explore text-center text-xl font-bold mb-6">MAKE RESERVATIONS</h2>
             <form class="space-y-4">
@@ -265,7 +271,7 @@ font-style: normal;
     
 </section>
 
-<section class="bg-gray-900 pr-56">
+<section class="bg-gray-900 pr-56  ">
     <div class="mx-auto max-w-[1340px] px-4 py-12 sm:px-6 lg:me-0 lg:py-16 lg:pe-0 lg:ps-8 xl:py-24">
       <div class="max-w-7xl items-end justify-between sm:flex sm:pe-6 lg:pe-8">
         <h2 class=" look max-w-xl text-4xl font-bold tracking-tight text-gray-300 sm:text-5xl">
@@ -552,6 +558,202 @@ font-style: normal;
 
 
 
+<!-- component -->
+
+
+
+<!-- ====== Blog Section Start -->
+<section class="pt-20 lg:pt-[120px] pb-10 lg:pb-20">
+   <div class="container">
+      <div class="flex flex-wrap justify-center -mx-4">
+         <div class="w-full px-4">
+            <div class="text-center mx-auto mb-[60px] lg:mb-20 max-w-[510px]">
+               <span class="explore font-semibold text-lg text-[#f9731d] mb-2 block">
+                Events, Meetings & Conferences
+
+               </span>
+               <h2
+                  class="look
+                  font-bold
+                  text-3xl
+                  sm:text-4xl
+                  md:text-[40px]
+                  text-dark
+                  mb-4
+                  "
+                  >
+                  Our venue spaces
+               </h2>
+               <p class="explore text-base text-body-color">
+                Our venue spaces are perfect for romantic weddings, catered meetings, and international conferences. State of the art facilities to suit your individual needs and a dedicated coordinator to take care of all your needs.
+               </p>
+            </div>
+         </div>
+      </div>
+      <div class="flex flex-wrap -mx-4">
+         <div class="w-full md:w-1/2 lg:w-1/3 px-4">
+            <div class="max-w-[370px] mx-auto mb-10">
+               <div class="rounded overflow-hidden mb-8">
+                  <img
+                     src="https://cdn.tailgrids.com/1.0/assets/images/blogs/blog-01/image-01.jpg"
+                     alt="image"
+                     class="w-full"
+                     />
+               </div>
+               <div>
+                  <span
+                     class="
+                     bg-[#f9731d]
+                     rounded
+                     inline-block
+                     text-center
+                     py-1
+                     px-4
+                     text-xs
+                     leading-loose
+                     font-semibold
+                     text-white
+                     mb-5
+                     "
+                     >
+                  Dec 22, 2023
+                  </span>
+                  <h3>
+                     <a
+                        href="javascript:void(0)"
+                        class="look
+                        font-semibold
+                        text-xl
+                        sm:text-2xl
+                        lg:text-xl
+                        xl:text-2xl
+                        mb-4
+                        inline-block
+                        text-dark
+                        hover:text-[#f9731d]
+                        "
+                        >
+                        Wedding Grounds, Events & Venues At Al-RahmaLodges
+                     </a>
+                  </h3>
+                  <p class="text-base text-body-color">
+                    Experience is everything, and our wedding planners create truly personal, memorable occasions. With the best green grounds to be found on the shores of Naivasha...
+                  </p>
+               </div>
+            </div>
+         </div>
+         <div class="w-full md:w-1/2 lg:w-1/3 px-4">
+            <div class="max-w-[370px] mx-auto mb-10">
+               <div class="rounded overflow-hidden mb-8">
+                  <img
+                     src="https://cdn.tailgrids.com/1.0/assets/images/blogs/blog-01/image-02.jpg"
+                     alt="image"
+                     class="w-full"
+                     />
+               </div>
+               <div>
+                  <span
+                     class="
+                     bg-[#f9731d]
+                     rounded
+                     inline-block
+                     text-center
+                     py-1
+                     px-4
+                     text-xs
+                     leading-loose
+                     font-semibold
+                     text-white
+                     mb-5
+                     "
+                     >
+                  Mar 15, 2023
+                  </span>
+                  <h3>
+                     <a
+                        href="javascript:void(0)"
+                        class="look
+                        font-semibold
+                        text-xl
+                        sm:text-2xl
+                        lg:text-xl
+                        xl:text-2xl
+                        mb-4
+                        inline-block
+                        text-dark
+                        hover:text-[#f9731d]
+                        "
+                        >
+                        Meetings & Conferences Venues At Al-Rahma Lodge
+                     </a>
+                  </h3>
+                  <p class="text-base text-body-color">
+                   Al-Rahma Kenya offers unique hotel conference facilities and venues in Naivasha, from seminars to conferences and accommodation at our exclusive lodge in Naivasha.
+                  </p>
+               </div>
+            </div>
+         </div>
+         <div class="w-full md:w-1/2 lg:w-1/3 px-4">
+            <div class="max-w-[370px] mx-auto mb-10">
+               <div class="rounded overflow-hidden mb-8">
+                  <img
+                     src="https://cdn.tailgrids.com/1.0/assets/images/blogs/blog-01/image-03.jpg"
+                     alt="image"
+                     class="w-full"
+                     />
+               </div>
+               <div>
+                  <span
+                     class="
+                     bg-[#f9731d]
+                     rounded
+                     inline-block
+                     text-center
+                     py-1
+                     px-4
+                     text-xs
+                     leading-loose
+                     font-semibold
+                     text-white
+                     mb-5
+                     "
+                     >
+                  Jan 05, 2023
+                  </span>
+                  <h3>
+                     <a
+                        href="javascript:void(0)"
+                        class="look
+                        font-semibold
+                        text-xl
+                        sm:text-2xl
+                        lg:text-xl
+                        xl:text-2xl
+                        mb-4
+                        inline-block
+                        text-dark
+                        hover:text-[#f9731d]
+                        "
+                        >
+                        Team Building Grounds, Venue & Activities
+                     </a>
+                  </h3>
+                  <p class="text-base text-body-color">
+                    Al-Rahma in Naivasha, Kenya has the perfect venue for your team-building programs.Take advantage of our experience with inspiring activities, test initiatives, practical abilities
+                  </p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+<!-- ====== Blog Section End -->
+
+
+
+
+
+
 <section>
  
     <footer class="bg-gray-800 text-white py-8">
@@ -593,5 +795,21 @@ font-style: normal;
       
 
 </section>
+
+
+
+
+
+
+
+
+
+
+<script>
+  function toggleMenu() {
+    const menu = document.querySelector('.navbar ul');
+    menu.classList.toggle('show');
+}
+</script>
 </body>
 </html>

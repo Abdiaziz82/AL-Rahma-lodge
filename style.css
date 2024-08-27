@@ -1,0 +1,29 @@
+/* Media query for tablets */
+@media (max-width: 1024px) {
+    .top-header {
+        padding: 10px 50px; /* Adjust padding for smaller screens */
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .top-header .contact-info {
+        justify-content: center;
+        gap: 20px;
+    }
+}
+
+/* Media query for mobile */
+@media (max-width: 480px) {
+    .top-header {
+        padding: 10px 20px; /* Further reduce padding for mobile */
+        flex-direction: column;
+        align-items: center;
+        text-align: center; /* Center text on mobile */
+    }
+
+    .top-header .contact-info {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+}
